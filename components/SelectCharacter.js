@@ -99,7 +99,7 @@ const SelectCharacter = ({ setCharacterNFT }) => {
 
   return (
     <div className="">
-      {showMintedModal ? <MintingModal link={modalText} showModal={showMintedModal} /> : <></>}
+      {/* {showMintedModal ? <MintingModal link={modalText} showModal={showMintedModal} /> : <></>} */}
       {mintingCharacter && (
         <>
         <NotificationMessage message="Minting in progress..." />

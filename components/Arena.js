@@ -110,7 +110,7 @@ const Arena = ({ characterNFT, setCharacterNFT }) => {
 
     {student && characterNFT && showToast && (
       <div>
-        <SuccessNotification message={`${student.name} was instructed ${currentTechnique.name}. Now has sleep score ${characterNFT.sleep}, nutrition score ${characterNFT.nutrition}, and activity score ${characterNFT.activity}!`} />
+        <SuccessNotification message={`${student.name} was instructed ${currentTechnique.name}. Now has sleep score ${student.sleep}, nutrition score ${student.nutrition}, and activity score ${student.activity}!`} />
       </div>
     )}
 
